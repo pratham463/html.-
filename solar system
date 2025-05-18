@@ -1,0 +1,75 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+       <center> <p style="color: white;">The solar system</p></center>
+        <style>
+            body {
+    background-color: black;
+}
+        </style>
+    </head>
+    <body>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="OIP (2).jpeg" class="d-block w-100" >
+                    <center>
+                        <p style="color: white;">lets explore our solar systems mysteries together</p>
+                    </center>
+                </div>
+                <div class="carousel-item">
+                    <img src="download (3).jpeg" class="d-block w-100">
+                    <p style="color: white;">☀️ The Sun</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="download (4).jpeg" class="d-block w-100" >
+                    <p style="color: white;">mercury</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="OIP.jpeg" class="d-block w-100">
+                    <p style="color: white;">venus</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="download (5).jpeg" class="d-block w-100">
+                    <p style="color: white;">earth</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="download (6).jpeg" class="d-block w-100">
+                    <p style="color: white;">mars</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="OIP (1).jpeg" class="d-block w-100">
+                    <p style="color: white;">jupiter</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="OIP (3).jpeg" class="d-block w-100">
+                    <p style="color: white;">saturn</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="download (7).jpeg" class="d-block w-100">
+                    <p style="color: white;">uranus</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="OIP (4).jpeg" class="d-block w-100">
+                    <p style="color: white;">neptune</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>    </div>
+    </body>
