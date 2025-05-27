@@ -1,0 +1,56 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>landing page</title>
+    </head>
+    <style>
+        body {
+            text-align: center;
+        }
+        nav {
+           background-color: pink;
+           padding: 10px;
+        }
+        ul{
+            list-style: none;
+            padding: 20px;
+            margin: 20px;
+        }
+        li{
+            float: left;
+            padding: 20px;
+        }
+        li a{
+            display: block;
+        }
+        li a:hover{
+            background-color: brown;
+        }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="www.google.com">home</a></li>
+            <li><a href="https://www.youtube.com/">about</a></li>
+            <li><a href="https://www.whatsapp.com/">contact</a></li>
+        </ul>
+    </nav>
+    <h2>intresting information</h2>
+    <img src="images.webp"/>
+    <br/>
+    <button onclick="tiger();">read more</button>
+    <p id="tiger-info"></p>
+    <img src="images (1).webp" />
+    <br />
+    <button onclick="lion();">read more</button>
+    <p id="lion-info"></p>
+    <script>
+        function tiger(){
+            document.getElementById("tiger-info").innerHTML=" A tiger has a large and strong body with brown fur and black vertical stripes.It has four legs, a large head, a long striped tail and a pair of glowing, ferocious eyes.Its feet are padded and it has sharp claws.It hunts and chews on its prey with its four sharp teeth."
+        }
+        function lion() {
+                document.getElementById("lion-info").innerHTML = " Lions, often referred to as the Kings of the Jungle,  are one of the most iconic and powerful animals in the animal kingdom. With their majestic manes and commanding presence, lions symbolize strength, courage, and leadership. These large carnivores are known for their social structure, living in prides that work together to hunt, protect, and raise their young. While lions once roamed across much of Africa and Asia, their habitat is now largely restricted due to human encroachment and environmental changes. Despite these challenges, lions continue to captivate our imagination and remain a symbol of power and pride in cultures around the world. Their role in the ecosystem as apex predators is crucial, helping maintain the balance of nature. The lion’s beauty and raw strength make it a timeless figure of admiration and respect. Lets get into the Lion Essay in English so that you can understand their way of life and their wild nature. "
+            }
+    </script>
+</body>
+</html>
