@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>navbar</title>
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .ping1,
+        .ping2,
+        .ping3 {
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .ping1 {
+            background-image: url(download\ \(1\).jpeg);
+            min-height: 100%;
+        }
+
+        .ping2 {
+            background-image: url(download\ \(2\).jpeg);
+            min-height: 100%;
+        }
+
+        .ping3 {
+            background-image: url(download\ \(3\).jpeg);
+            min-height: 100%;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px 80px;
+        }
+
+        .section-light {
+            background-color: white;
+            color: black;
+        }
+
+        .section-dark {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .toopnav {
+            overflow: hidden;
+            background-color: aqua;
+        }
+
+        .toopnav a {
+            float: left;
+            color: wheat;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .toopnav a:hover {
+            background-color: red;
+        }
+
+        .toopnav a.active {
+            background-color: brown;
+            color: aquamarine;
+        }
+    </style>
+
+<body>
+    <div class="toopnav">
+        <a class="active" href="#home">Home</a>
+        <a href="http://127.0.0.1:3000/about us.html">about</a>
+        <a href="https://web.whatsapp.com/">contact</a>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="OIP.jpeg" class="d-block w-100" alt="pic of our resort">
+            </div>
+            <div class="carousel-item">
+                <img src="OIP(5).jpeg" class="d-block w-100" alt="pic of our resort">
+            </div>
+            <div class="carousel-item">
+                <img src="OIP(1.jpeg)" class="d-block w-100" alt="pic of our resort">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</body>
+</html>
