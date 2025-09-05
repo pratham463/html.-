@@ -1,0 +1,11 @@
+function palindrome(my string){
+  var input = mystring.replace(/[^a-Z0-9]/ig").tolowercase();
+  var reversed Input = input-split('').reverse().join('');
+    if (input === reversedInput) {
+        document.write("<div>" + mystring + " is  a pallindrome<div>")
+    }
+    else {
+        document.write("<div>" + mystring + "is not a pallindrome<div>")
+    }
+}
+palindrome("madam")
