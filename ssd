@@ -1,0 +1,14 @@
+<h3>add your to do list here</h3>
+  <form id="my form">
+    <input id ="myInput"type="text">
+    <button>add</button>
+    </form>
+    <h3>to do list</h3>
+<ul id="myItem"></ul>
+var myForm=document.getElementById("myForm");
+var myInput=document.getElementById("myInput");
+var myItem=document.getElementById("myItem");
+myForm.addEventListener("Submit",function(event){
+event.preventDefault()
+createItem(myInput.value)
+})
